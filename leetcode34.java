@@ -2,18 +2,25 @@
 
 class Solution {
     public int[] searchRange(int[] nums, int target) {
-        int []arr = new int[2];
-        arr[0]= arr[1] =-1;
-        for(int i = 0 ; i <nums.length ; i ++){
-            if (nums[i]==target){
-                arr[0]=i ;
-                while(i<nums.length && nums[i+1]== target){
-                    i++ ;
-                    arr[1]=i;
-                    break ;
-                }
+        int left = firstGreaterEqual(nums, target);
+        if (left == nums.length || nums[left] != target) {
+            return new int[]{-1, -1};
+        }
+        int right = firstGreaterEqual(nums, target + 1) - 1;
+        return new int[]{left, right};
+    }
+
+    private int firstGreaterEqual(int[] arr, int target) {
+        int l = 0, r = arr.length;
+        while (l < r) {
+            int mid = (l + r) / 2;
+            if (arr[mid] >= target) {
+                r = mid;
+            } else {
+                l = mid + 1;
             }
         }
-        return arr ;
+        return l;
     }
 }
+
