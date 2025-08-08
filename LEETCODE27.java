@@ -1,5 +1,8 @@
 //27.REMOVE ELEMENT LEETCODE QUESTION 
 
+
+https://www.youtube.com/watch?v=QrCds_6NiSk&pp=ygUbbGVldGNvZGUgcHJvYmxlbSBpbiBqYXZhIDI3
+
 class Solution {
     public int removeElement(int[] nums, int val) {
         int i = 0;  // write-pointer for next valid element
