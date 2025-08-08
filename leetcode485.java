@@ -1,4 +1,5 @@
 //Max Consecutive Ones | Leetcode 485
+https://www.youtube.com/watch?v=pPVE4KZ1hsU&pp=ygUZbGVldGNvZGUgcHJvYmxlbSA0ODUgamF2YQ%3D%3D
 
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
