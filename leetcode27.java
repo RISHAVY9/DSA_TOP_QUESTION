@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=QrCds_6NiSk&pp=ygUbbGVldGNvZGUgMjcgcHJvYmxlbSBpbiBqYXZh
+
 class Solution {
     public int removeElement(int[] nums, int val) {
         int i = 0; 
