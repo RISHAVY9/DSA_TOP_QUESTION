@@ -1,3 +1,7 @@
+https://www.youtube.com/watch?v=eTty8o7K2_M&t=354s&pp=ygUcbGVldGNvZGUgcHJvYmxlbSBpbiBqYXZhIDExONIHCQmtCQGHKiGM7w%3D%3D
+
+
+
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> list = new ArrayList<>();
