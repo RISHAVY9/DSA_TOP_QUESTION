@@ -1,3 +1,6 @@
+LINK = https://www.youtube.com/watch?v=to4Ufp0MU4w
+
+
 public class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0) return false;
