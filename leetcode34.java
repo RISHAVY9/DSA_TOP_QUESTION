@@ -1,5 +1,7 @@
 //Find First and Last Position of Element in Sorted Array | Leetcode #34
 
+https://www.youtube.com/watch?v=bvaYNDKp830&pp=ygUbbGVldGNvZGUgcHJvYmxlbSAzNCBpbiBqYXZh
+
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int left = firstGreaterEqual(nums, target);
