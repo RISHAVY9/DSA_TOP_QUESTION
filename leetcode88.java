@@ -1,4 +1,5 @@
 //88.MERGE SORTED ARRAYS 
+LINK = https://www.youtube.com/watch?v=0H6038ldSyg&t=564s&pp=ygUYbGVldGNvZGUgODggamF2YSBzdWx0aW9u
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
     int i = m - 1, j = n - 1, k = m + n - 1;
