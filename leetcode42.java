@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=IxWWL0by-EU&pp=ygUYbGVldGNvZGUgcHJvYmxlbSA0MiBqYXZh0gcJCa0JAYcqIYzv
+
 class Solution {
     public int trap(int[] height) {
         if (height == null || height.length < 3) return 0;
