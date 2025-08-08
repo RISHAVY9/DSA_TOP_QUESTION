@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=lR8cPJ-Gh9o&pp=ygUbbGVldGNvZGUgcHJvYmxlbSAzMyBpbiBqYXZh
+
 class Solution {
     public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
