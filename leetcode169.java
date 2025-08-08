@@ -1,3 +1,6 @@
+https://www.youtube.com/watch?v=1r8kzrXJiUk&pp=ygUcbGVldGNvZGUgcHJvYmxlbSBpbiBqYXZhIDE2OQ%3D%3D
+
+
 class Solution {
     public int majorityElement(int[] nums) {
         int candidate = 0;
