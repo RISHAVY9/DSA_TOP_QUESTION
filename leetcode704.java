@@ -1,3 +1,4 @@
+LINK = https://www.youtube.com/watch?v=_qOPk5FC2NU&pp=ygUabGVldGNvZGUgNzA0IGphdmEgc29sdXRpb24%3D
 public class Solution {
     public int search(int[] nums, int target) {
         int left = 0;
