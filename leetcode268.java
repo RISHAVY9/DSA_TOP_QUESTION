@@ -1,4 +1,7 @@
 //Missing Number | LeetCode problem 268
+https://www.youtube.com/watch?v=cuNX7rijdt8&pp=ygUdbGVldGNvZGUgcHJvYmxlbSBpbiBqYXZhIDI2OCA%3D
+
+
 
 class Solution {
     public int missingNumber(int[] nums) {
